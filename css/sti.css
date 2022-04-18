@@ -1,0 +1,172 @@
+
+/*color de caja de texto y fondo */
+.form-control
+{
+
+  display: block;
+
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: black;
+  background-color: #white;
+  background-image: none;
+  text-align: left;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 0 10px white;
+  border-radius: 10px;
+  margin-top: 5px;
+
+}
+
+/*color del borde y fondo de la caja de texto cuando hagamos clic con el cursor*/
+.form-control:focus {
+ color: blue;
+  background: white;
+  outline: 0;
+ border-color: blue;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+
+
+body
+{
+	background-color: #add8e6;
+	/*background-image: url('fondo.jpg');*/
+	background-size: 100%;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/*color del boton y sus letras y bordes*/
+.btn-default
+{
+		background: #5878ca;
+	border-radius: 10px;
+	font-size: 18px;
+	color: white;
+	border:1ssspx solid #5878ca;
+}
+
+
+
+
+
+/*color de las letras y fondo de los botones al acercar el cursor*/
+/*.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: blue;
+  background-color: #5878ca;
+border-color: blue;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+color de la barra de navegacion ademas de bordes*/
+.navbar
+{
+	background: #add8e6;
+	border-radius: 10px;
+	border-color: blue;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	
+
+
+
+}
+
+/*color de letra en general*/
+label
+{
+	color: black;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+/*el color de las letras de la tabla*/
+.table
+{
+
+	color: black;
+	background: transparent;
+	font-size: 12px;
+
+
+
+
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th
+ {
+  vertical-align: bottom;
+  border-bottom: 1px solid blue;
+
+
+}
+/*borde de las tablas para cada seleccion que ingrese */
+.table > tbody + tbody {
+  border-top: 1px solid blue;
+}
+/*color de las letras y de las opciones del navbar cuando acercamos el cursor*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: #5878ca;
+  border-radius:20px 0px 20px 0px ;
+
+
+}
+/*color de las letras del navbar*/
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size: 13px;
+  margin-top:3px;
+}
+/*es la parte izquierda de la pagina como si fuera aside*/
+.regproizq
+{
+	background-color: #add8e6;
+	margin-left: 0px;
+
+	border-radius: 20px;
+	padding: 10px;
+
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	color:black;
+	height:500px;
+	border-color: blue	;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 10px;
+}
+/*es la parte derecha de la pagina como si fuera otro aside*/
+.regproder
+{
+	background-color: #add8e6;
+    height: 500px;
+
+	border-radius: 20px;
+
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	color: black; 
+
+	border-color: blue;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 10px;
+}
+.navbar-toggle
+{
+	background: blue;
+}
